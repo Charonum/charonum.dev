@@ -1,0 +1,10 @@
+{
+  "TestFiles": {
+    "TestFilesSubFolder": {
+      "foobar.py": "import math\n\nprint(math.pi)"
+    },
+    "foo.py": "print(\"Hello world!\")",
+    "virus.py": null
+  },
+  "bar.py": "answer = input(\"Type here: \")\nprint(f\"You said: {answer}\")"
+}
