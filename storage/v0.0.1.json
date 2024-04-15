@@ -1,5 +1,5 @@
 {
   "TestFiles": {
-    "foo.py": "print(\"Hello world!\")",
+    "foo.py": "print(\"Hello world!\")"
   }
 }
