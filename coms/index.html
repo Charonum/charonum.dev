@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+        .box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 45%;
+            background-color: #f0f0f0;
+        }
+        .pie-chart-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1 id="project-name">PROJECT_NAME</h1>
+    <div class="container">
+        <div class="box" id="schedule-box">
+            <h2>Schedule</h2>
+            <p>Deadline: <span id="deadline">DLINE</span></p>
+            <p>Estimation: <span id="estimation">EST</span></p>
+            <p id="schedule-status"></p>
+        </div>
+        <div class="box" id="completion-box">
+            <h2>Completion</h2>
+            <ul id="completion-list"></ul>
+        </div>
+    </div>
+    <div class="pie-chart-container">
+        <h2>Priorities</h2>
+        <canvas id="pie-chart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
