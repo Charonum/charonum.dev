@@ -2,10 +2,10 @@
     "PROJECT_NAME": "Aura SMP",
     "DLINE": "2024-08-02",
     "EST": "2024-08-02",
-    "COMPL": {
-        "Repair/Bug Fixing": "Incomplete"
-    },
+    "COMPL": {},
     "PIE": {
-        "Repair/Bug Fixing": 100
+        "Powers/Abilities": 30,
+        "Recipes and items": 60,
+        "Commands, Utilities, & misc.": 10
     }
 }
